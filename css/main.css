@@ -1,0 +1,172 @@
+*
+{margin: 0;padding: 0;box-sizing: border-box;}
+::selection
+{
+    background-color:cadetblue ;
+    color: #e65f78!important;
+}
+body
+{
+font-family: 'Open Sans', sans-serif;;
+}
+#home
+{
+    background-image: url(../images/header-bg.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+    color: #fff;
+    height: 100vh;
+    text-align: center;
+}
+#home .overlay
+{
+    background-color: rgba(0,0,0,0.7);
+    height: 100%;
+    width: 100%;
+}
+#home .overlay .caption
+{
+    height: 100%;
+}
+#home .overlay .caption h1{
+    font-size: 60px;
+   font-weight: 700;
+}
+#home .overlay .caption p{
+width: 35%;
+}
+#home .overlay .caption a
+{
+    border: 2px solid #fff;
+    padding: 16px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    color:#fff ;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+#home .overlay .caption a:hover
+{
+    background-color: #fff;
+    color: black;
+}
+nav{
+    width: 100%;
+}
+
+.navbar-dark .navbar-nav .nav-link
+{
+    color: #fff;
+}
+.navbar-dark .navbar-nav .active
+{
+    color: #e65f78 !important;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #e65f78 !important;
+}
+.navbar-nav li
+{
+    margin-left: 10px;
+}
+#home .setting
+{
+background-color: black;
+position: fixed;
+top: 60px;
+left: 0;
+padding: 10px;
+
+}
+#home .scroll
+{
+    padding: 28px 15px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    position: absolute;
+    bottom: 50px;
+    animation: scroll 2s infinite;
+}
+#home .scroll::after
+{
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 8px;
+    bottom: 10px;
+    left: 14px;
+    background-color: #fff;
+}
+@keyframes scroll
+{
+    0% {bottom: 20px;}
+    20% {bottom: 40px;}
+    40% {bottom: 10px;}
+    60% {bottom: 15px;}
+    100% {bottom: 20px;}
+}
+
+.service-item i , .client i
+{
+    color: #e65f78;
+}
+.service-item .brdr
+{
+    width: 40px;
+    height: 2px;
+    background-color: #e65f78;
+    margin: 10px auto;
+    transition: width 0.5s;
+}
+.service-item:hover .brdr
+{
+    width: 60px;
+}
+
+
+
+.carousel-indicators .custom
+{
+    background-color: #e65f78;
+    width: 15px;
+    height: 5px;
+}
+.carousel-indicators .active
+{
+    width:20px ;
+}
+
+
+
+
+.nav-pills
+{
+  
+justify-content: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
